@@ -112,7 +112,7 @@ const ComingSoon = () => {
 
                 <button type="submit" className="default-btn" disabled={state.submitting}>
                   <i className="flaticon-user"></i>
-                  Notify My <span></span>
+                  Notify Me<span></span>
                 </button>
 
                 <p>
