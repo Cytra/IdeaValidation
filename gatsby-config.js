@@ -9,8 +9,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `ScrapePal - Web Scraping API`,
-    description: `ScrapePal - Web Scraping API`,
+    title: `AI-Powered Website Scraping Tool`,
+    description: `No programming skills required! Simply enter the URL and the data you need, and our tool will provide you with a JSON response`,
     author: `Martynas Samuilovas`
   },
   plugins: [
