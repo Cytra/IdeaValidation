@@ -9,23 +9,23 @@ import Footer from "../components/_App/Footer"
 import ComingSoon from "../components/ComingSoon/CommingSoon"
 
 const IndexPage = () => (
-  <>
-    <ComingSoon/>
-  </>
+  // <>
+  //   <ComingSoon/>
+  // </>
 
-  // <Layout>
+  <Layout>
 
-  //   <Navbar />
+    <Navbar />
 
-  //   <Banner />
+    <Banner />
 
-  //   <Services />
+    <Services />
 
-  //   <Testimonials />
+    <Testimonials />
 
-  //   <Footer />
+    <Footer />
 
-  // </Layout>
+  </Layout>
 )
 
 /**
