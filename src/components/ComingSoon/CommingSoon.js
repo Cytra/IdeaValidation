@@ -56,7 +56,7 @@ const ComingSoon = () => {
               <h2>AI-Powered Website Scraping Tool</h2>
               <p>
                 No programming skills required! Simply enter the URL and the data you need,
-                and our tool will provide you with a JSON response.
+                and our tool will provide you with a JSON response. 
               </p>
               <div
                 id="timer"
