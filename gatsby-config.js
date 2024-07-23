@@ -39,5 +39,25 @@ module.exports = {
         icon: `./src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "AW-1030563991",  // Replace with your GTM container ID
+
+        // Include GTM in development mode for testing purposes
+        includeInDevelopment: false,
+
+        // Set GTM environment details if using environments
+        // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
+        // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
+        // dataLayerName: "YOUR_DATA_LAYER_NAME",
+
+        // Optional settings to include dataLayer
+        // defaultDataLayer: { platform: "gatsby" },
+
+        // Specify additional events or settings as needed
+        // routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
+      },
+    },
   ],
 }
