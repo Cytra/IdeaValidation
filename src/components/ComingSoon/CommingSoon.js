@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useForm, ValidationError } from '@formspree/react';
 
 const ComingSoon = () => {
-  const [state, handleSubmit] = useForm("xrbzeeyv");
+  const [state, handleSubmit] = useForm("xjkbwgqy");
   const [days, setDays] = useState("");
   const [hours, setHours] = useState("");
   const [minutes, setMinutes] = useState("");
@@ -55,10 +55,9 @@ const ComingSoon = () => {
       <div className="d-table">
         <div className="d-table-cell">
           <div className="coming-soon-content">
-            <h2>AI-Powered Website Scraping Tool</h2>
+            <h2>AI product photos that help you sell more</h2>
             <p>
-              No programming skills required! Simply enter the URL and the data you need,
-              and our tool will provide you with a JSON response. 
+              Remove backgrounds, generate beautiful photos, and edit with AI—all in one tool.
             </p>
             <div
               id="timer"
